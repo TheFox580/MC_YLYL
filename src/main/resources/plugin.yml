@@ -1,0 +1,20 @@
+name: MC_YLYL
+version: '${project.version}'
+main: fr.thefox580.mc_ylyl.MC_YLYL
+api-version: '1.20'
+author: TheFox580
+description: The custom You Laugh You Lose plugin from TheFox580's video
+
+commands:
+  laughed:
+    description: Modifies the player health / put them in spectator if they laugh too many times
+    permission: op
+  start:
+    description: Starts the timer
+    permission: op
+  setTimer:
+    description: Allows to modify the timer if needed
+    permission: op
+  pause:
+    description: Pauses the timer
+    permission: op
